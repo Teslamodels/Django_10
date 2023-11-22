@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Base</title>
+</head>
+<body>
+    <div>
+        <header>
+            <a href="{% url 'steve' %}">Steve</a>
+            <a href="{% url 'jobs' %}">Jobs</a>
+        </header>
+    </div>
+
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>
